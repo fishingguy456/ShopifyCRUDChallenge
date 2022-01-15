@@ -1,7 +1,7 @@
 # ShopifyCRUDChallenge
 This was made for Shopify's Backend Developer/Production Engineer Intern Challenge. This inventory tracking app was built using the MERN Stack (MongoDB, Express, React, Node). The selected additional feature was: Push a button export product data to a CSV
 
-##Instructions to use this webapp:
+## Instructions to use this webapp:
 
 Install Node and Git onto your computer:
 
@@ -29,6 +29,8 @@ Exit the client folder:
 
 Enter the server folder:
 
+`cd server`
+
 Install Express, Cors, Mongoose, (Optionally: Nodemon)
 
 `npm i express cors mongoose nodemon`
@@ -45,4 +47,4 @@ Launch the App:
 
 `npm start`
 
-The app is now working! Create items at the top; read, update and delete them in the middle; and download them to a CSV file at the bottom.
+The app is now running on localhost:3000! Create items at the top; read, update and delete them in the middle; and download them to a CSV file at the bottom.
